@@ -1,0 +1,148 @@
+		body {
+		
+		
+		
+		
+	
+		
+		
+		background-image: linear-gradient(to bottom left, red, orange, purple);
+		background-repeat: no-repeat;
+		background-size: contain;
+		
+		height: 1000px;
+		
+
+
+		 
+
+	}
+
+
+
+.header {
+	text-align: center;
+	font-family: Arial;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+
+
+	
+
+
+
+
+	
+}
+
+.one {
+		border-radius: 5px;
+		box-shadow: 0 0 30px black;
+		position: relative;
+		z-index: 0;
+}
+			
+.column {
+	float: left;
+	padding: 10px;
+	width: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.box1 {
+		width: 300px;
+		margin: 15px;
+		background-color: white;
+		border-radius: 5px;
+		box-shadow: 0 0 30px black;
+		z-index: 0;
+}
+
+.box2 {
+	margin: 10px;
+	object-position: center;
+
+	
+}
+.dot {
+margin-left: 10px;
+
+}
+.dot1 {
+	font-size: 12px;
+}
+.text {
+	margin-left: 10px;
+}
+
+
+input[type=text], select, [type=Password], option, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Arial;
+ }
+
+input[type=submit] {
+  width: 100%;
+  font-size: 17px;
+  font-family: Arial; 
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  text-shadow: 0 0 2px black;
+}
+
+ input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=checkbox] {
+float: left;
+font-family: "Material Icons";
+content: '\E834';
+    color: #295da7;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkbox1 {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+#sign-in {
+	width: 100px;
+	margin-left: 55px;
+	background-color: red;
+}
+#Subscribe, #Send {
+	float: left;
+	width: 50%;
+}
+#Nope, #Done {
+	
+	width: 50%;
+}
+
+
+
+}
+@media screen and (max-width: 200px) {
+  .column {
+    width: 100%;
+}
